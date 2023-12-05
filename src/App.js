@@ -21,7 +21,7 @@ function App() {
         </div>
         <div className='participant-info'>
           <text className='name'>Oleksandr Martsin</text>
-          <text className='job'>Projeck Manager</text>
+          <text className='job'>Project Manager</text>
           <img className='participant-photo' src={oleksandr} alt="" />
         </div>
         <div className='participant-info'>
