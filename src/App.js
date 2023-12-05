@@ -9,7 +9,7 @@ function App() {
           <div className='participant-info'>
               <text className='name'>Kruk Daryna</text>
               <text className='job'>Copyright & Tester</text>
-              <img className='participant-photo' src={daryna} alt="" />
+              <img className='participant-photo' src={daryna} alt="avatar" />
           </div>
       </div>
     </div>
