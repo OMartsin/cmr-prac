@@ -6,11 +6,13 @@ function App() {
     <div className="App">
       <h1>Our Team</h1>
       <div className="team">
-        {/* <div className='participant-info'>
-          <text className='name'>Your name</text>
-          <text className='job'>Your job</text>
-          <img className='participant-photo' src={photo} alt="" />
-        </div> */}
+        {
+          <div className='participant-info'>
+          <text className='name'>Oleh Misiailo</text>
+          <text className='job'>Team Lead</text>
+          <img className='participant-photo' src="./src/images/OlehMisiailo.jpeg" alt="" />
+        </div> 
+        }
       </div>
     </div>
   );
