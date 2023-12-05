@@ -1,5 +1,6 @@
 import './App.css';
 import daryna from './images/daryna.jpg'
+import oleksandr from './images/oleksandr.png';
 
 function App() {
   return (
@@ -12,6 +13,13 @@ function App() {
                 <img className='participant-photo' src={daryna} alt="avatar" />
             </div>
         </div>
+      <div className="team">
+        <div className='participant-info'>
+          <text className='name'>Oleksandr Martsin</text>
+          <text className='job'>Projeck Manager</text>
+          <img className='participant-photo' src={oleksandr} alt="" />
+        </div>
+      </div>
     </div>
   );
 }
