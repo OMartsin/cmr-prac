@@ -1,38 +1,47 @@
-.App {
-  text-align: center;
+html, body, #root, .App {
+  background-color: #002366;
+  color: #002366;
+  height: 100%;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1{
+  color: antiquewhite;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.App{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.team{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.participant-info {
+  background-color: antiquewhite;
+  height: 100%;
+  width: 20%;
+  border-radius: 1rem;
+  padding: 0.5rem;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap: 0.25rem;
 }
 
-.App-link {
-  color: #61dafb;
+.name {
+  font-size: 1.5rem;
+  font-weight: 1000;
+  color: black;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.job {
+  font-size: 1.25rem;
+  font-weight: 600;
 }
